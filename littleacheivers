@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Little Achievers Preschool</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #FDF5E6;
+        }
+        header {
+            background-color: #2C3E50;
+            color: #FFF;
+            padding: 20px;
+            text-align: center;
+            font-size: 24px;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #FFD700;
+            padding: 10px;
+        }
+        nav a {
+            text-decoration: none;
+            color: #333;
+            padding: 10px 20px;
+            font-size: 18px;
+        }
+        .hero {
+            text-align: center;
+            padding: 50px;
+            background-image: url('hero-image.jpg'); /* Replace with actual image */
+            background-size: cover;
+            color: #333;
+        }
+        .container {
+            padding: 20px;
+            text-align: center;
+        }
+        .footer {
+            background-color: #2C3E50;
+            color: #FFF;
+            text-align: center;
+            padding: 10px;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        Little Achievers Preschool
+    </header>
+    <nav>
+        <a href="#about">About Us</a>
+        <a href="#programs">Programs</a>
+        <a href="#admissions">Admissions</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <div class="hero">
+        <h1>Where Little Minds Grow Big!</h1>
+        <p>Join our preschool and give your child the best start in learning.</p>
+        <button>Enroll Now</button>
+    </div>
+    <div class="container" id="about">
+        <h2>About Us</h2>
+        <p>Little Achievers Preschool provides a nurturing environment for young minds.</p>
+    </div>
+    <div class="container" id="programs">
+        <h2>Our Programs</h2>
+        <p>We offer age-appropriate learning for toddlers, preschoolers, and kindergarten students.</p>
+    </div>
+    <div class="container" id="admissions">
+        <h2>Admissions</h2>
+        <p>Enroll your child today! Contact us to learn more.</p>
+    </div>
+    <div class="container" id="contact">
+        <h2>Contact Us</h2>
+        <p>Email: info@littleachievers.com | Phone: (123) 456-7890</p>
+    </div>
+    <div class="footer">
+        &copy; 2025 Little Achievers Preschool. All rights reserved.
+    </div>
+</body>
+</html>
